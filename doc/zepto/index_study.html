@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zepto</title>
+</head>
+<body>
+	Zepto core 学习文件
+
+	<p id="title">Title</p>
+	<p class="name">Name1</p>
+	<p class="name">Name2</p>
+
+	<script type="text/javascript" src="./zepto_study.js"></script>
+	<script type="text/javascript">
+		var fragmentRE = /^\s*<(\w+|!)[^>]*>/;
+		var singleTagRE = /^<(\w+)\s*\/?>(?:<\/\1>|)$/;
+		var tagExpanderRE = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/ig;
+		var simpleSelectorRE = /^[\w-]*$/;
+
+		console.log($([1,2,3]))
+		
+
+	</script>
+</body>
+</html>
